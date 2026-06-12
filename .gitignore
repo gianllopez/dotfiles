@@ -1,0 +1,10 @@
+# os
+.DS_Store
+
+# sessions
+kitty/sessions/*.session
+!kitty/sessions/template.session
+
+# themes
+kitty/themes/*
+!kitty/themes/.gitkeep

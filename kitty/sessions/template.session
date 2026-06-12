@@ -1,0 +1,11 @@
+# This folder holds Kitty session files: definitions of tabs, windows,
+# layouts, working directories and programs to launch on startup.
+#
+# Session files in this folder are ignored by Git since they are
+# machine-specific; only this template is tracked.
+#
+# To create a session, copy this file and define your own setup:
+#   cp template.session my-project.session
+#   kitty --session sessions/my-project.session
+#
+# Documentation: https://sw.kovidgoyal.net/kitty/sessions
