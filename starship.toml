@@ -1,0 +1,12 @@
+add_newline = false
+
+format = "$directory$git_branch$git_status$python-> "
+
+[python]
+format = "(and \\[$virtualenv\\] )"
+
+[battery]
+disabled = true
+
+[line_break]
+disabled = true
