@@ -1,0 +1,7 @@
+# Lazygit [`https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md`]
+
+customCommands:
+  - key: "<c-e>"
+    command: "nvim -c NvimTreeFocus"
+    context: "global"
+    output: terminal
