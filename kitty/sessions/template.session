@@ -1,11 +1,14 @@
 # This folder holds Kitty session files: definitions of tabs, windows,
 # layouts, working directories and programs to launch on startup.
 #
+# Sessions are grouped in a folder per organization, mirroring how the
+# projects are laid out on disk (e.g. `com.example/api.session`).
+#
 # Session files in this folder are ignored by Git since they are
 # machine-specific; only this template is tracked.
 #
 # To create a session, copy this file and define your own setup:
-#   cp template.session my-project.session
-#   kitty --session sessions/my-project.session
+#   cp template.session com.example/api.session
+#   kitty --session sessions/com.example/api.session
 #
 # Documentation: https://sw.kovidgoyal.net/kitty/sessions

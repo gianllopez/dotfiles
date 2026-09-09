@@ -1,0 +1,9 @@
+#compdef session
+
+# Completes the `<organization>/<project>` argument of `session` from the
+# Kitty session files, dropping the `.session` extension.
+
+local root=~/.config/dotfiles/kitty/sessions
+local -a names=("$root"/*/*.session(.N:r))
+
+compadd -- "${names[@]#$root/}"

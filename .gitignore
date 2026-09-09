@@ -2,7 +2,7 @@
 .DS_Store
 
 # sessions
-kitty/sessions/*.session
+kitty/sessions/**/*.session
 !kitty/sessions/template.session
 
 # themes
