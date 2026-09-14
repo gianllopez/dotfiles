@@ -5,7 +5,7 @@ gui:
     - [files]
     - [branches]
     - [commits]
-  screenMode: full
+  screenMode: half
 
 customCommands:
   - key: "<c-e>"
