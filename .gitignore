@@ -6,8 +6,8 @@ kitty/sessions/**/*.session
 !kitty/sessions/template.session
 
 # tab configs
-warp/tab_configs/*
-!warp/tab_configs/.gitkeep
+warp/launch_configurations/*
+warp/launch_configurations/.gitkeep
 
 # themes
 kitty/themes/*
