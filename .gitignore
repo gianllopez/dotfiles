@@ -5,6 +5,10 @@
 kitty/sessions/**/*.session
 !kitty/sessions/template.session
 
+# tab configs
+warp/tab_configs/*
+!warp/tab_configs/.gitkeep
+
 # themes
 kitty/themes/*
 !kitty/themes/.gitkeep
