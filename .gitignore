@@ -1,14 +1,9 @@
 # os
 .DS_Store
 
-# sessions
+# kitty
 kitty/sessions/**/*.session
-!kitty/sessions/template.session
+kitty/themes/*.conf
 
-# tab configs
-warp/launch_configurations/*
-warp/launch_configurations/.gitkeep
-
-# themes
-kitty/themes/*
-!kitty/themes/.gitkeep
+# warp
+warp/launch_configurations/*.yaml
